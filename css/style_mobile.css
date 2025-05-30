@@ -1,9 +1,13 @@
 body {
     width: 450px;
+    margin: 0 auto;
     color: #393d41;
     font-size: 1.2rem;
     font-family: "Open Sans", sans-serif;
     line-height: 1.65;
+    /* Attiva il  bordo solo per visualizzare
+     meglio il padding laterale sugli article 
+    border: 1px solid; */
 }
 
 header {
@@ -27,17 +31,51 @@ header {
     background-size: cover;
 
 }
-section {
+section, aside, footer {
     width: 100%;
     padding: 35px;
     box-sizing: border-box;
 }
+aside {
+    background-color: #e22d0e;
+    color: white;
+}
+article {
+    margin: 30px 0;
+    border: 1px solid;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: #dee1e3;
+}
+article img {
+    width: 100%;
+}
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+}
 
-p {
-    text-align: center;
+footer hr {
+   width: 50%;
+   margin-bottom: 30px;
+}
+footer div {
     margin: 20px 0;
 }
-h1,h3 {
+footer p {
+    margin: 0;
+}
+footer a {
+    color: #c8e7f0;
+}
+footer i {
+    color:white
+}
+p {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+h1,h2,h3 {
     color: #25a2c3;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -46,7 +84,7 @@ h1,h3 {
     font-weight: 700;
 }
 h1 {
-    font-size: 2rem;   
+    font-size: 2.5rem;   
     line-height: 1;
     width: 60%;
     margin-left: auto;
@@ -54,8 +92,7 @@ h1 {
 }
 h2 {
     color: white;
-    font-family: "Montserrat", sans-serif; ;
-    line-height: 1.5;   
+    font-size: 2rem;   
 }
 button {
     background-color: #f04c2f;
@@ -69,8 +106,26 @@ button {
     height: 50px;
 }
 #first-section div {
-    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 150px;
 }
+#middle-img img {
+ border-radius: 50%;
+ width: 100%;
+ padding: 10px;
+ box-sizing: border-box;
+}
+#p-italic {
+    font-style: italic;
+}
+#author {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+#author-ref  {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+
