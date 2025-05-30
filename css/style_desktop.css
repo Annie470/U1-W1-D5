@@ -1,0 +1,157 @@
+body {
+    width: 1366px;
+    margin: 0 auto;
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#logo {
+    width: 10%;
+}
+#logo img {
+    width: 100%;
+}
+
+
+section, aside, footer {
+    width: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+}
+#first-section {
+    background-color: antiquewhite;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding: 10%;
+
+}
+aside {
+    background-color: #e22d0e;
+    color: white;
+}
+article {
+    display: inline-block;
+    width: 26%;
+    margin: 30px;
+    border: 1px solid;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: #dee1e3;
+}
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+h1,h2,h3 {
+    color: #25a2c3;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-weight: 700;
+}
+h1 {
+    font-size: 2.5rem;   
+    line-height: 1;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+h2 {
+    color: white;
+    font-size: 2.5rem;   
+}
+button {
+    background-color: #f04c2f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+#first-section div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+#middle-img {
+    width: 35%;
+    margin-right: 70px;
+    display: inline-block;
+}
+#middle-img img {
+ border-radius: 50%;
+ width: 100%;
+ box-sizing: border-box;
+}
+
+
+#p-italic {
+    font-style: italic;
+}
+#author {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+#author-ref  {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.container {
+    width: 50%;
+    display: inline-block;
+}
+.container p {
+    text-align: left;
+}
+.container h3 {
+    text-align: left;
+}
+.container p {
+    margin-bottom: 0;
+}
+article img {
+    width: 100%;
+    background-size: cover;
+}
+
+footer div {
+    width: 30%;
+    margin: 20px auto;
+    padding-left: 13%;
+}
+/* questo fa molto ridere =) ... si potevo benissimo usare un id 
+per il <p> in questione */
+footer div+div p {
+    border-top: 1px solid;
+    padding-top: 20px;
+}
+footer p {
+    margin: 0;
+    text-align: left;
+}
+footer a {
+    color: #c8e7f0;
+}
+footer i {
+    color:white
+}
+
